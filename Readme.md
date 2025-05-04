@@ -36,7 +36,7 @@ OpenAI API key
 
 ### Clone the repository:
 
- git clone https://github.com/yourusername/rag-chatbot.git
+ git clone https://github.com/AyushKumarEntvin/Rag-Agent.git
 cd rag-chatbot
 
 ### Create a virtual environment:

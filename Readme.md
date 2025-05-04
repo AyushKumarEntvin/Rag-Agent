@@ -51,7 +51,7 @@ source venv/bin/activate
 
  pip install -r requirements.txt
 
-Create a .env file in the root directory with your OpenAI API key:
+### Create a .env file in the root directory with your OpenAI API key:
 
 OPENAI_API_KEY=your_openai_api_key_here
 

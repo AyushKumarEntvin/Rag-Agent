@@ -127,19 +127,7 @@ POST /api/chat/message: Send a message to a chat thread and get a streaming resp
 GET /api/chat/history: Get the chat history for a specific chat thread
 GET /api/chat/status: Check if a chat thread is currently processing a message
 
-Project Structure
-Copyrag-chatbot/
-├── main.py                  # FastAPI application
-├── chat_service.py          # Chat management with LangChain
-├── document_processor.py    # Document processing and embedding
-├── models.py                # Pydantic models
-├── frontend/
-│   └── app.py               # Streamlit frontend
-├── uploads/                 # Uploaded documents
-├── chat_history/            # Persisted chat history
-├── chroma_db/               # Vector database storage
-├── requirements.txt         # Dependencies
-└── .env                     # Environment variables
+
 Requirements
 See requirements.txt for a complete list of dependencies. Key libraries include:
 

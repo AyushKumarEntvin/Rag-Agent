@@ -122,9 +122,13 @@ Chat history can be retrieved when rejoining a chat session
 API Endpoints
 
 POST /api/documents/process: Process a document and create embeddings
+
 POST /api/chat/start: Start a new chat thread with a specific asset ID
+
 POST /api/chat/message: Send a message to a chat thread and get a streaming response
+
 GET /api/chat/history: Get the chat history for a specific chat thread
+
 GET /api/chat/status: Check if a chat thread is currently processing a message
 
 

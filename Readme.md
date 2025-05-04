@@ -42,7 +42,10 @@ cd rag-chatbot
 ### Create a virtual environment:
 
  python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+source venv/bin/activate  
+
+#### On Windows: venv\Scripts\activate
 
 ### Install dependencies:
 
@@ -51,11 +54,13 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 Create a .env file in the root directory with your OpenAI API key:
 
 OPENAI_API_KEY=your_openai_api_key_here
+
 API_BASE_URL = "http://localhost:8000/api"  # Change this to your backend URL
 
 ### Running the Application
 Start the Backend
  uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
 Start the Frontend in new terminal
  cd frontend
 streamlit run app.py

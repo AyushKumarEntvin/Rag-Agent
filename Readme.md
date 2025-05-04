@@ -62,7 +62,7 @@ streamlit run app.py
 The frontend will be accessible at http://localhost:8501
 
 backend docs:
-{Backend URL}/docs
+{Backend Base URL}/docs
 
 ## Usage Guide
 1. Upload and Process a Document

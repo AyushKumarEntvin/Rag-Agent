@@ -1,0 +1,34 @@
+# fastapi==0.95.1
+# uvicorn==0.22.0
+# streamlit==1.22.0
+# langchain>=0.0.310
+# langchain-openai>=0.0.2
+# langgraph>=0.0.15
+# pydantic>=2.0.0
+# chromadb==0.4.6
+# openai>=0.27.8
+# pypdf2==3.0.1
+# docx2txt==0.8
+# python-dotenv==1.0.0
+# aiofiles==23.1.0
+# aiohttp==3.8.4
+
+# requirements.txt
+fastapi>=0.100.0  # Newer FastAPI
+uvicorn==0.22.0
+streamlit==1.22.0
+langchain>=0.0.310
+langchain-openai>=0.0.2
+langgraph>=0.0.15
+pydantic>=2.0.0  # Pydantic v2 for newer FastAPI
+chromadb>=0.4.18  # Newer ChromaDB that supports FastAPI 0.100.0+
+openai>=0.27.8
+pypdf2==3.0.1
+docx2txt==0.8
+python-dotenv==1.0.0
+aiofiles==23.1.0
+aiohttp==3.8.4
+langchain-openai
+langgraph
+aiofiles
+aiohttp

@@ -61,6 +61,9 @@ Start the Frontend in new terminal
 streamlit run app.py
 The frontend will be accessible at http://localhost:8501
 
+backend docs:
+{Backend URL}/docs
+
 ## Usage Guide
 1. Upload and Process a Document
 
